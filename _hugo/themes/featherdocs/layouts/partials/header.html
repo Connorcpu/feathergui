@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{{ $baseUrl := .Site.BaseURL }}
+{{ $isHomePage := eq .Title .Site.Title }}
+<html lang="en">
+	<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Feather GUI Downloads and Documentation" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='{{ $baseUrl }}/main.css' rel='stylesheet' type='text/css'>
+  <link rel="alternate" href="{{ $baseUrl }}/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
+  <link rel="icon" href="{{ $baseUrl }}/favicon.ico">
+	<title>{{ .Site.Title }} - {{ .Title }}</title>
+  <link rel="stylesheet" href="{{ $baseUrl }}/css/featherdocs.css">
+	</head>
+
+<body role="document">
+<main>
+<nav>
+  <ul>
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Pre }}{{ .Name }}</a></li>
+    {{end}}
+  </ul>
+</nav>
+<header>Feather<b>GUI</b></header>

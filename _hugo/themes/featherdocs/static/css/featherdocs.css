@@ -3,8 +3,16 @@ body {
   min-width: 600px;
   margin: 0 auto;
   padding: 0;
-  font: 16px "Open Sans";
+  font: 16px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #FDFDFE;
+}
+
+nav li a, header, .button_green {
+  user-select: none;           
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  -webkit-touch-callout: none;
 }
 nav {
   position:absolute;
@@ -16,6 +24,7 @@ nav {
   top: 0;
   bottom: 0;
   left: 0;
+  min-height: 22em;
 }
 nav ul{
   padding: 0 0.5em;
@@ -25,9 +34,10 @@ nav li {
 }
 nav li a {
   display: block;
-  padding: 1em 0.75em;
+  padding: 0.7em 0.75em;
   text-decoration: none;
   color: #FDFDFE;
+  border-radius: 1em;
 }
 nav li a:hover {
   color: #FFF;
@@ -54,6 +64,7 @@ header {
   padding: 0 0.5em 0.1em 0.5em;
   background: #3399AA;
   border-radius: 0 0 50px 0;
+  cursor: default;
 }
 footer {
   color: #999;
@@ -129,4 +140,11 @@ aside {
   padding: 0;
   font-size: 80%;
 	color: #DDDDD9;
+}
+.warning {
+  display:inline;
+  background: #CC2222;
+  color: #FFFFFF;
+  border-radius: 0.7em;
+  padding: 0.15em 0.25em;
 }

@@ -1,0 +1,41 @@
+{{ $baseUrl := .Site.BaseURL }}
+{{ partial "header.html" . }}
+
+<section>
+<h1>What is FeatherGUI?</h1>
+<aside><div class="button_green"><a href="#">Download<p>FeatherGUI SDK v0.1.0</p></a></div></aside>
+<p>FeatherGUI is a GUI abstraction layer that seperates <i>logic</i> from <i>implementation</i>. Instead of abstracting over a hardcoded set of existing GUI APIs, FeatherGUI implements an abstraction layer you then <i>implement</i> in your own engine by linking a few functions. All you need is a way to draw images, text, and lines, and featherGUI will do the rest!</p>
+<p>While this makes FeatherGUI great for games, it also supports using native GUI APIs, allowing you to build just one layout and use that same layout across all platforms. Because you control the implementation of FeatherGUI, if an existing implementation doesn't exist for your target platform, it's trivial to make one yourself. Your GUI toolkit should work for <i>you</i>, not the other way around. Take back control of how your GUI behaves.</p>
+</section>
+
+<!--{{ range where .Site.Pages "Title" "_index" }}
+	<div class="row doc-main">
+		<p class="doc-entry-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></p>
+		{{ .Content }}
+	</div>
+{{ end }}
+
+<div class="row doc-category">
+	<h2>Pages in Categories</h2>
+	<div>
+		<ul class="doc-list-category">
+		{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+			<li>
+				<a href="{{ $baseUrl }}/categories/{{ $name | urlize }}">
+					<span class="doc-list-category">{{ $name | title }}</span>
+				</a>
+				<ul>{{ range $taxonomy.Pages }}
+					<li><a href="{{ .RelPermalink }}">
+						<span>{{ .Title }}{{ if .Draft }} #Draft{{ end }}</span>
+						<span class="doc-entry-meta">(<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>)
+					</span>
+				</a></li>
+				{{ end }}
+				</ul>
+			</li>
+		{{ end }}
+		</ul>
+	</div>
+</div>-->
+
+{{ partial "footer.html" . }}
