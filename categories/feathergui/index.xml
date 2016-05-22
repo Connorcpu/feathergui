@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feathergui on FeatherGUI</title>
-    <link>http://black-sphere-studios.github.io/feathergui/categories/feathergui/</link>
+    <link>/feathergui/categories/feathergui/</link>
     <description>Recent content in Feathergui on FeatherGUI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Black Sphere Studios. All rights reserved.</copyright>
     <lastBuildDate>Sat, 09 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://black-sphere-studios.github.io/feathergui/categories/feathergui/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/feathergui/categories/feathergui/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Download</title>
-      <link>http://black-sphere-studios.github.io/feathergui/dl/</link>
+      <link>/feathergui/dl/</link>
       <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://black-sphere-studios.github.io/feathergui/dl/</guid>
+      <guid>/feathergui/dl/</guid>
       <description>&lt;p&gt;FeatherGUI has precompiled SDKs available for several platforms:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -28,20 +28,20 @@
     
     <item>
       <title>Web Designer</title>
-      <link>http://black-sphere-studios.github.io/feathergui/web/</link>
+      <link>/feathergui/web/</link>
       <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://black-sphere-studios.github.io/feathergui/web/</guid>
+      <guid>/feathergui/web/</guid>
       <description>&lt;div class=&#34;warning&#34;&gt;Web Designer is not available yet!&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>fgElement</title>
-      <link>http://black-sphere-studios.github.io/feathergui/doc/fgElement/</link>
+      <link>/feathergui/doc/fgElement/</link>
       <pubDate>Sat, 02 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://black-sphere-studios.github.io/feathergui/doc/fgElement/</guid>
+      <guid>/feathergui/doc/fgElement/</guid>
       <description>
 
 &lt;h2 id=&#34;fgelement:f205b96db8b3755e721886ddb55ad439&#34;&gt;fgElement&lt;/h2&gt;

@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/</loc>
+    <loc>/feathergui/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/about/</loc>
+    <loc>/feathergui/about/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/doc/</loc>
+    <loc>/feathergui/doc/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/dl/</loc>
+    <loc>/feathergui/dl/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/web/</loc>
+    <loc>/feathergui/web/</loc>
     <lastmod>2016-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://black-sphere-studios.github.io/feathergui/doc/fgElement/</loc>
+    <loc>/feathergui/doc/fgElement/</loc>
     <lastmod>2016-04-02T00:00:00+00:00</lastmod>
   </url>
   
