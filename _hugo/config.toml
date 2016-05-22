@@ -1,4 +1,4 @@
-baseurl = "http://black-sphere-studios.github.io/feathergui/"
+baseurl = "http://black-sphere-studios.github.io/feathergui"
 languageCode = "en-us"
 title = "FeatherGUI"
 theme = "featherdocs"
