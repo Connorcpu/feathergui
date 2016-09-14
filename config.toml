@@ -4,7 +4,7 @@ title = "FeatherGUI"
 theme = "featherdocs"
 author = "Erik McClure"
 copyright = "Black Sphere Studios. All rights reserved."
-publishdir = "../"
+publishdir = "docs/"
 
 [menu]
   # Shown in the side menu.
